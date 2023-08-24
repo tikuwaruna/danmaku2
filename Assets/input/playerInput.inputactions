@@ -46,9 +46,25 @@
                     "interactions": ""
                 },
                 {
+                    "name": "noshot",
+                    "type": "Button",
+                    "id": "78081f20-b419-4560-80eb-1b7f9a472cc8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
                     "name": "teisoku",
                     "type": "Button",
                     "id": "38a55dbd-ad89-49d5-8ac1-ca19eeee5330",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Noteisoku",
+                    "type": "Button",
+                    "id": "341db78d-1504-46e8-99f2-4cb1a4391198",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": ""
@@ -301,7 +317,7 @@
                     "name": "",
                     "id": "ca46d743-1baa-479d-b1b8-994848092702",
                     "path": "<HID::Logicool Logicool Dual Action>/button3",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "shot",
@@ -312,7 +328,7 @@
                     "name": "",
                     "id": "d7cb09dd-5acd-4627-b0c2-2aefb298cf1e",
                     "path": "<Keyboard>/z",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "shot",
@@ -323,7 +339,7 @@
                     "name": "",
                     "id": "9c56ed2b-ea16-499e-b905-a95907aea984",
                     "path": "<HID::Logicool Logicool Dual Action>/button6",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "teisoku",
@@ -334,10 +350,65 @@
                     "name": "",
                     "id": "bd7ab285-d39b-49d0-a07e-1ec90bbb79f2",
                     "path": "<Keyboard>/shift",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "teisoku",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "tempName",
+                    "id": "71cecc54-2ecb-42e6-ab2c-3ffffac60d17",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01900db9-d2da-4c6f-9821-7a54a8dd3662",
+                    "path": "<Keyboard>/shift",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Noteisoku",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9ac14da5-b71d-49fd-bc34-697da0e3a0eb",
+                    "path": "<HID::Logicool Logicool Dual Action>/button6",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Noteisoku",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a86806fc-d045-4318-b03a-46a61be491d9",
+                    "path": "<HID::Logicool Logicool Dual Action>/button3",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "noshot",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "defbe956-d9a5-4634-9f3e-7e5ff80d9b8f",
+                    "path": "<Keyboard>/z",
+                    "interactions": "Press(behavior=1)",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "noshot",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

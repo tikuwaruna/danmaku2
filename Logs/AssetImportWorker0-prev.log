@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 22621.1702; Version 2009; 64bit' Language: 'ja' Physical Memory: 16126 MB
+OS: 'Windows 10 Home; OS build 22621.2134; Version 2009; 64bit' Language: 'ja' Physical Memory: 15720 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,96 +11,168 @@ C:\Program Files\Unity\Hub\Editor\2020.2.7f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/unity/dannmaku1
+C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55544
-Successfully changed project path to: D:/unity/dannmaku1
-D:/unity/dannmaku1
+55568
+Successfully changed project path to: C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2
+C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 31.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/unity/dannmaku1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: AMD Radeon (TM) Graphics (ID=0x15e7)
     Vendor:   
-    VRAM:     8063 MB
-    Driver:   31.0.101.3616
+    VRAM:     7860 MB
+    Driver:   31.0.14044.2
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002506 seconds.
+Registered in 0.001554 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 33.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.153 seconds
+- Completed reload, in  0.929 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002706 seconds.
+Registered in 0.001325 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.31 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 32.71 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.889 seconds
+- Completed reload, in  0.748 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2115 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.7 MB.
-System memory in use after: 95.7 MB.
+Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.9 MB.
+System memory in use after: 95.8 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2563.
-Total: 2.471700 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.045200 ms MarkObjects: 2.104500 ms  DeleteObjects: 0.145000 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2566.
+Total: 2.432000 ms (FindLiveObjects: 0.387900 ms CreateObjectMapping: 0.068400 ms MarkObjects: 1.846900 ms  DeleteObjects: 0.127100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/input/playerInput.inputactions
-  artifactKey: Guid(994312f9f3249be41926e1a81cc618ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/input/playerInput.inputactions using Guid(994312f9f3249be41926e1a81cc618ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddc0a3ce961c84516b4869560e91515') in 0.107388 seconds
-  Import took 0.111278 seconds .
+  path: Assets/c#/oodama.cs
+  artifactKey: Guid(87f292f28da79224c9a4f499afcc5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/c#/oodama.cs using Guid(87f292f28da79224c9a4f499afcc5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '486c875f0b68fe131f0ef2fa501e92b8') in 0.054527 seconds
+  Import took 0.058648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.988018 seconds.
+  path: Assets/c#/oodama.cs
+  artifactKey: Guid(87f292f28da79224c9a4f499afcc5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/c#/oodama.cs using Guid(87f292f28da79224c9a4f499afcc5452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb28ba2d7af53c712c8b376f40f1036') in 0.002649 seconds
+  Import took 0.007464 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002460 seconds.
+Registered in 0.001500 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  0.650 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2110 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.9 MB.
-System memory in use after: 95.9 MB.
+Unloading 2113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.0 MB.
+System memory in use after: 96.0 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 2.298900 ms (FindLiveObjects: 0.169100 ms CreateObjectMapping: 0.043600 ms MarkObjects: 1.948700 ms  DeleteObjects: 0.135700 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2570.
+Total: 2.441500 ms (FindLiveObjects: 0.258800 ms CreateObjectMapping: 0.105200 ms MarkObjects: 1.962800 ms  DeleteObjects: 0.113200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.064176 seconds.
+  path: Assets/Scenes/dannmaku1.unity
+  artifactKey: Guid(4767283db98fab84aa1ea88d77298692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/dannmaku1.unity using Guid(4767283db98fab84aa1ea88d77298692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ced3d90096460a8570654c210faf3b') in 0.018497 seconds
+  Import took 0.022296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1077.005299 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1d1e8fa0207fef1ef5c50ce6f6093d') in 0.012601 seconds
+  Import took 0.017294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.440562 seconds.
+  path: Assets/font/Kaisotai-Next-UP-B.otf
+  artifactKey: Guid(275e87c0f0d78cf408cb86d9f87e8a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/font/Kaisotai-Next-UP-B.otf using Guid(275e87c0f0d78cf408cb86d9f87e8a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e3f9ea9837d555b0e3216477da0f4d') in 0.196877 seconds
+  Import took 0.203769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 902.016323 seconds.
+  path: Assets/ttf
+  artifactKey: Guid(3c58d95777697bd478963be68c2ab6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ttf using Guid(3c58d95777697bd478963be68c2ab6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476fbd3e89e345e2f4e76ea93c4c590c') in 0.013258 seconds
+  Import took 0.018295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 297.892288 seconds.
+  path: Assets/ttf/TTEditMirrorWritingGothic.ttf
+  artifactKey: Guid(d4750dba3650e6242b76660d6d493d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ttf/TTEditMirrorWritingGothic.ttf using Guid(d4750dba3650e6242b76660d6d493d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d6cdc39f2fc13741e334c2873ad353') in 0.028592 seconds
+  Import took 0.033414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 688.542159 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f1a35068a432949468dae9bcddec5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(f1a35068a432949468dae9bcddec5925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59696076b98066af877d2c218ae6c594') in 0.010034 seconds
+  Import took 0.018489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10894.879177 seconds.
+  path: Assets/ttf/ume-pms3.ttf
+  artifactKey: Guid(f32363b188b74104abc7e295176a4e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ttf/ume-pms3.ttf using Guid(f32363b188b74104abc7e295176a4e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30931e5632dc4cb8249da9268a08f78a') in 0.176420 seconds
+  Import took 0.257186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.581770 seconds.
+  path: Assets/mitame/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/mitame/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a78fff23f17666e1d210261282522b') in 0.007308 seconds
+  Import took 0.013810 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

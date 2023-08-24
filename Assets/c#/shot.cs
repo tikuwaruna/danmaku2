@@ -7,13 +7,13 @@ public class shot : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("Des", 6);
+        Invoke("Des", 4f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(0, 6, 0) * Time.deltaTime;
+        transform.position += new Vector3(0, 8, 0) * Time.deltaTime;
     }
    void Des()
     {

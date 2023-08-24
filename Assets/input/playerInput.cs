@@ -59,9 +59,25 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
+                    ""name"": ""noshot"",
+                    ""type"": ""Button"",
+                    ""id"": ""78081f20-b419-4560-80eb-1b7f9a472cc8"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
                     ""name"": ""teisoku"",
                     ""type"": ""Button"",
                     ""id"": ""38a55dbd-ad89-49d5-8ac1-ca19eeee5330"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Noteisoku"",
+                    ""type"": ""Button"",
+                    ""id"": ""341db78d-1504-46e8-99f2-4cb1a4391198"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
@@ -314,7 +330,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""ca46d743-1baa-479d-b1b8-994848092702"",
                     ""path"": ""<HID::Logicool Logicool Dual Action>/button3"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""shot"",
@@ -325,7 +341,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""d7cb09dd-5acd-4627-b0c2-2aefb298cf1e"",
                     ""path"": ""<Keyboard>/z"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""shot"",
@@ -336,7 +352,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""9c56ed2b-ea16-499e-b905-a95907aea984"",
                     ""path"": ""<HID::Logicool Logicool Dual Action>/button6"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Gamepad"",
                     ""action"": ""teisoku"",
@@ -347,10 +363,65 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                     ""name"": """",
                     ""id"": ""bd7ab285-d39b-49d0-a07e-1ec90bbb79f2"",
                     ""path"": ""<Keyboard>/shift"",
-                    ""interactions"": """",
+                    ""interactions"": ""Press"",
                     ""processors"": """",
                     ""groups"": ""Keyboard&Mouse"",
                     ""action"": ""teisoku"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""tempName"",
+                    ""id"": ""71cecc54-2ecb-42e6-ab2c-3ffffac60d17"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": """",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""01900db9-d2da-4c6f-9821-7a54a8dd3662"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""Noteisoku"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9ac14da5-b71d-49fd-bc34-697da0e3a0eb"",
+                    ""path"": ""<HID::Logicool Logicool Dual Action>/button6"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""Noteisoku"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a86806fc-d045-4318-b03a-46a61be491d9"",
+                    ""path"": ""<HID::Logicool Logicool Dual Action>/button3"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Gamepad"",
+                    ""action"": ""noshot"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""defbe956-d9a5-4634-9f3e-7e5ff80d9b8f"",
+                    ""path"": ""<Keyboard>/z"",
+                    ""interactions"": ""Press(behavior=1)"",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard&Mouse"",
+                    ""action"": ""noshot"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -933,7 +1004,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_bom = m_Player.FindAction("bom", throwIfNotFound: true);
         m_Player_shot = m_Player.FindAction("shot", throwIfNotFound: true);
+        m_Player_noshot = m_Player.FindAction("noshot", throwIfNotFound: true);
         m_Player_teisoku = m_Player.FindAction("teisoku", throwIfNotFound: true);
+        m_Player_Noteisoku = m_Player.FindAction("Noteisoku", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1000,7 +1073,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_bom;
     private readonly InputAction m_Player_shot;
+    private readonly InputAction m_Player_noshot;
     private readonly InputAction m_Player_teisoku;
+    private readonly InputAction m_Player_Noteisoku;
     public struct PlayerActions
     {
         private @PlayerInput m_Wrapper;
@@ -1010,7 +1085,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @bom => m_Wrapper.m_Player_bom;
         public InputAction @shot => m_Wrapper.m_Player_shot;
+        public InputAction @noshot => m_Wrapper.m_Player_noshot;
         public InputAction @teisoku => m_Wrapper.m_Player_teisoku;
+        public InputAction @Noteisoku => m_Wrapper.m_Player_Noteisoku;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1035,9 +1112,15 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @shot.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShot;
                 @shot.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShot;
                 @shot.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnShot;
+                @noshot.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNoshot;
+                @noshot.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNoshot;
+                @noshot.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNoshot;
                 @teisoku.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTeisoku;
                 @teisoku.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTeisoku;
                 @teisoku.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnTeisoku;
+                @Noteisoku.started -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNoteisoku;
+                @Noteisoku.performed -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNoteisoku;
+                @Noteisoku.canceled -= m_Wrapper.m_PlayerActionsCallbackInterface.OnNoteisoku;
             }
             m_Wrapper.m_PlayerActionsCallbackInterface = instance;
             if (instance != null)
@@ -1057,9 +1140,15 @@ public class @PlayerInput : IInputActionCollection, IDisposable
                 @shot.started += instance.OnShot;
                 @shot.performed += instance.OnShot;
                 @shot.canceled += instance.OnShot;
+                @noshot.started += instance.OnNoshot;
+                @noshot.performed += instance.OnNoshot;
+                @noshot.canceled += instance.OnNoshot;
                 @teisoku.started += instance.OnTeisoku;
                 @teisoku.performed += instance.OnTeisoku;
                 @teisoku.canceled += instance.OnTeisoku;
+                @Noteisoku.started += instance.OnNoteisoku;
+                @Noteisoku.performed += instance.OnNoteisoku;
+                @Noteisoku.canceled += instance.OnNoteisoku;
             }
         }
     }
@@ -1221,7 +1310,9 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnBom(InputAction.CallbackContext context);
         void OnShot(InputAction.CallbackContext context);
+        void OnNoshot(InputAction.CallbackContext context);
         void OnTeisoku(InputAction.CallbackContext context);
+        void OnNoteisoku(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {
