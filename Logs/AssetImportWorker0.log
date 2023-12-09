@@ -15,11 +15,11 @@ C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52921
+56592
 Successfully changed project path to: C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2
 C:/Users/kitti/OneDrive/ドキュメント/GitHub/danmaku2
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 40.78 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 93.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,112 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003416 seconds.
+Registered in 0.003241 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 53.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 48.33 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.149 seconds
+- Completed reload, in  2.734 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001895 seconds.
+Registered in 0.002064 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.77 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 50.90 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.963 seconds
+- Completed reload, in  1.054 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2127 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 96.1 MB.
-System memory in use after: 96.0 MB.
+System memory in use after: 96.1 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2575.
-Total: 9.172600 ms (FindLiveObjects: 0.748300 ms CreateObjectMapping: 0.149500 ms MarkObjects: 8.065500 ms  DeleteObjects: 0.207000 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 3.320100 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.184900 ms MarkObjects: 2.597200 ms  DeleteObjects: 0.155100 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 54.2 MB.
+System memory in use after: 54.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2576.
+Total: 8.054600 ms (FindLiveObjects: 0.838400 ms CreateObjectMapping: 0.323800 ms MarkObjects: 6.617200 ms  DeleteObjects: 0.270900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@4x.png
-  artifactKey: Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Weight_Slider@4x.png using Guid(4e494ad3b858ecf4fab63aae9075d43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb901085a77a858b71a770f3c9cf17c') in 0.199358 seconds
-  Import took 0.207782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@4x.png
-  artifactKey: Guid(ac47ed8ccc79cf04dae198b9cc5b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Weight_Slider@4x.png using Guid(ac47ed8ccc79cf04dae198b9cc5b3a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a4f0bb87cb7a117834aa9e91525414') in 0.028678 seconds
-  Import took 0.033908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/mitame/tatie(reimu)/霊夢（微笑）.png
-  artifactKey: Guid(9ba44300a058b7c4393012e14a3b6298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mitame/tatie(reimu)/霊夢（微笑）.png using Guid(9ba44300a058b7c4393012e14a3b6298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d0860685509457644cd38285abea45') in 0.034663 seconds
-  Import took 0.040974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 862.458522 seconds.
-  path: Assets/Scenes/StageSlect1.unity
-  artifactKey: Guid(530bdb365aaea3445a8b57eac7c9f915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/StageSlect1.unity using Guid(530bdb365aaea3445a8b57eac7c9f915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea946a1c3302328c68fc3dcfe6f1e058') in 0.032267 seconds
-  Import took 0.099541 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.283033 seconds.
-  path: Assets/Scenes/dannmaku1.unity
-  artifactKey: Guid(4767283db98fab84aa1ea88d77298692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/dannmaku1.unity using Guid(4767283db98fab84aa1ea88d77298692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa95d6e6ec759130e9dcdf328664724') in 0.015731 seconds
-  Import took 0.022655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1179.490459 seconds.
-  path: Assets/c#/supekaM.cs
-  artifactKey: Guid(ef105346b99838d4cb2983f6349f05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/c#/supekaM.cs using Guid(ef105346b99838d4cb2983f6349f05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29574723ac5192e75fd9f8707a74ad1a') in 0.067893 seconds
-  Import took 0.110976 seconds .
+  path: Assets/supekaM.anim
+  artifactKey: Guid(6aaa54540800f024880214bf36207d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/supekaM.anim using Guid(6aaa54540800f024880214bf36207d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e765f0a796448613f60fcd15712a756c') in 0.081177 seconds
+  Import took 0.088253 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003001 seconds.
+Registered in 0.006663 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.898 seconds
+- Completed reload, in  1.478 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2122 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.2 MB.
+System memory in use before: 96.2 MB.
+System memory in use after: 96.2 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 19.170700 ms (FindLiveObjects: 1.492900 ms CreateObjectMapping: 0.287500 ms MarkObjects: 15.849300 ms  DeleteObjects: 1.536100 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2580.
+Total: 4.753900 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.072900 ms MarkObjects: 4.176400 ms  DeleteObjects: 0.151600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2099.206482 seconds.
+  path: Assets/supekaM.anim
+  artifactKey: Guid(6aaa54540800f024880214bf36207d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/supekaM.anim using Guid(6aaa54540800f024880214bf36207d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c438ecd62a2ab52782cf341d0123ffb4') in 0.257730 seconds
+  Import took 0.394700 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
