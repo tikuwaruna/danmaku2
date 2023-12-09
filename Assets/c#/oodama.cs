@@ -16,7 +16,7 @@ public class oodama : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position += transform.forward * Time.deltaTime * spead;
+        
         if (Freeze == true)
         {
             spead = 0;

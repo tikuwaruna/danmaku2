@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/mitame/Scenes/SampleScene.unity
+    path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/mitame/Scenes/dannmaku1.unity
+    path: Assets/Scenes/dannmaku1.unity
     guid: 4767283db98fab84aa1ea88d77298692
   - enabled: 1
-    path: Assets/mitame/Scenes/StageSlect1.unity
+    path: Assets/Scenes/StageSlect1.unity
     guid: 530bdb365aaea3445a8b57eac7c9f915
   m_configObjects: {}

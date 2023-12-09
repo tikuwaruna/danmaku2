@@ -23,7 +23,7 @@ public class KT : MonoBehaviour
 
         velocity.y = speed * Mathf.Sin(angle * Mathf.Deg2Rad);
 
-        Destroy(gameObject, 5.0f);
+        Destroy(gameObject, 15.0f);
 
         float zAngle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg - 90.0f;
         transform.rotation = Quaternion.Euler(0, 0, zAngle);
@@ -34,6 +34,10 @@ public class KT : MonoBehaviour
     {
         transform.position += velocity * Time.deltaTime * SP ;
         SP += 0.008f;
+        if (PRS.hidann == true)
+        {
+            Destroy(gameObject, 0.01f);
+        }
     }
 
     public void Init(float input_angle)

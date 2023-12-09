@@ -15,17 +15,21 @@ public class hassya1_1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Freeze = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        timeCount += Time.deltaTime;
+        if (PRS.hidann == true)
+        {
+            return;
+        }
+            timeCount += Time.deltaTime;
         Ftime -= Time.deltaTime;
 
         // 1•b‚ğ’´‚¦‚Ä‚¢‚é‚©
-        if (timeCount > 0.5f & Freeze == false)
+        if (timeCount > 0.42f & Freeze == false)
         {
             timeCount = 0; // Ä”­Ë‚Ì‚½‚ß‚ÉŠÔ‚ğƒŠƒZƒbƒg
 

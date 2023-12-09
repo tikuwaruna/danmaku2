@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3316845325129328908}
   - component: {fileID: 6357576036286231943}
   - component: {fileID: 6357576036286231938}
+  - component: {fileID: -7870431722737215535}
   m_Layer: 0
   m_Name: oodma
   m_TagString: danmaku
@@ -115,3 +116,18 @@ MonoBehaviour:
   angle: -90
   speed: 8
   KT: {fileID: 2984750721792968081, guid: bd3800ab6d622e641a00c8add60e11bd, type: 3}
+--- !u!114 &-7870431722737215535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3316845325129328909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f292f28da79224c9a4f499afcc5452, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Freeze: 0
+  spead: 6
+  KT: {fileID: 0}

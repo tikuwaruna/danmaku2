@@ -26,6 +26,8 @@ public class aooodam1 : MonoBehaviour
         float zAngle = Mathf.Atan2(velocity.y, velocity.x) * Mathf.Rad2Deg - 90.0f;
         transform.rotation = Quaternion.Euler(0, 0, zAngle);
 
+        transform.position += velocity * 0.3f;
+
     }
 
     // Update is called once per frame
@@ -33,7 +35,7 @@ public class aooodam1 : MonoBehaviour
     {
         if (hassya1_1.Freeze==false)
         {
-
+            
             transform.position += velocity * Time.deltaTime;
 
         }
@@ -43,6 +45,10 @@ public class aooodam1 : MonoBehaviour
             Fch = true;
         }
 
+        if (PRS.hidann == true)
+        {
+            Destroy(gameObject);
+        }
 
 
     }
