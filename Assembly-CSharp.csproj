@@ -55,9 +55,15 @@
   <ItemGroup>
     <Compile Include="Assets\c#\ciruno.cs" />
     <Compile Include="Assets\c#\atarihanntei.cs" />
+    <Compile Include="Assets\c#\hassya1_2.cs" />
+    <Compile Include="Assets\c#\buttonS1.cs" />
+    <Compile Include="Assets\c#\supekaM.cs" />
+    <Compile Include="Assets\c#\KT2.cs" />
+    <Compile Include="Assets\c#\ACDK.cs" />
     <Compile Include="Assets\c#\TextC.cs" />
     <Compile Include="Assets\c#\M.cs" />
     <Compile Include="Assets\c#\enemyFA.cs" />
+    <Compile Include="Assets\c#\Ssyoudan.cs" />
     <Compile Include="Assets\c#\hassya1_1.cs" />
     <Compile Include="Assets\c#\aooodam1.cs" />
     <Compile Include="Assets\c#\shot.cs" />
@@ -66,8 +72,10 @@
     <Compile Include="Assets\c#\PRS.cs" />
     <Compile Include="Assets\c#\oodama.cs" />
     <Compile Include="Assets\c#\buttonS.cs" />
+    <Compile Include="Assets\c#\aooodam2.cs" />
     <Compile Include="Assets\c#\KT.cs" />
-    <Compile Include="Assets\c#\supekaM.cs" />
+    <Compile Include="Assets\c#\buttonK.cs" />
+    <Compile Include="Assets\c#\ACDS.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -729,6 +737,15 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Recorder.Base">
+      <HintPath>Library\ScriptAssemblies\Unity.Recorder.Base.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

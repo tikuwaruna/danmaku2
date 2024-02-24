@@ -553,8 +553,8 @@ GameObject:
   - component: {fileID: 874353063}
   - component: {fileID: 874353062}
   - component: {fileID: 874353061}
-  - component: {fileID: 874353060}
   - component: {fileID: 874353064}
+  - component: {fileID: 874353060}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -591,7 +591,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 874353058}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0154cb5c1a7b641429daafdcc573dc4b, type: 3}
+  m_Script: {fileID: 11500000, guid: 72524714267653243a34a57f23d0a479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &874353061
@@ -639,7 +639,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 874353060}
-        m_TargetAssemblyTypeName: buttonS, Assembly-CSharp
+        m_TargetAssemblyTypeName: buttonS1, Assembly-CSharp
         m_MethodName: st1
         m_Mode: 1
         m_Arguments:

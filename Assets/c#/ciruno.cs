@@ -35,10 +35,10 @@ public class ciruno : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("ok");
+        //Debug.Log("ok");
         if (other.gameObject.tag == "shot")
         {
-            Debug.Log("shot");
+            //Debug.Log("shot");
             hp -= 1.5f;
             Destroy(other.gameObject);
         }

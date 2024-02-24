@@ -35,6 +35,6 @@ public class M : MonoBehaviour
     }
     public void timer()
     {
-
+        tm = 35.4f;
     }
 }

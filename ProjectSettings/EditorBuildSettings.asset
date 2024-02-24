@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/StageSlect1.unity
     guid: 530bdb365aaea3445a8b57eac7c9f915
+  - enabled: 1
+    path: Assets/Scenes/dannmaku1 3.unity
+    guid: ca94ab97e44ff5a4b93177044d850688
   m_configObjects: {}

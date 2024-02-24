@@ -24,6 +24,7 @@ public class PRS : MonoBehaviour
     float span = 0.05f;
     private float Tm = 0f;
     public static bool hidann = false;
+    public static bool akike = false;
 
     public GameObject akahaikei;
     public Button first;
@@ -35,6 +36,7 @@ public class PRS : MonoBehaviour
         audioSource = GetComponent<AudioSource>();
         akahaikei.SetActive(false);
         hidann = false;
+        akike = false;
         akahaikei.SetActive(false);
         // StartCoroutine("shotaction");
     }
@@ -69,7 +71,7 @@ public class PRS : MonoBehaviour
         if (_playerInput.Player.noshot.triggered)
         {
             canshot = false;
-            Debug.Log(canshot);
+            //Debug.Log(canshot);
         }
 
         iti += _velocity * Time.deltaTime * speed;
@@ -138,6 +140,7 @@ public class PRS : MonoBehaviour
     public void slect()
     {
         akahaikei.SetActive(true);
+        akike = true;
         //_playerInput.Player.Disable();
         //_playerInput.UI.Enable();
         first.Select();       
